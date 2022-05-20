@@ -1,0 +1,41 @@
+.klinika{
+ padding: 73px 0;
+}
+.klinika__inner {
+  margin: 0 auto;
+  width: 753px;
+  text-align: center;
+}
+.klinika__line {
+  display: inline-block;
+  width: 140px;
+  height: 0px;
+  border: 1px solid #DBDBDB;
+  margin-bottom: 43px;
+}
+
+.klinika__discription {
+  margin: 0;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 26px;
+  text-align: center;
+  color: #949494;
+  margin-bottom: 35px;
+
+}
+.klinika__line2{
+  display: inline-block;
+  width: 140px;
+  height: 0px;
+  border: 1px solid #DBDBDB;
+  margin-bottom: 35px;
+
+}
+.klinika__title {
+  display: block;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 26px;
+  color: #333333;
+}
