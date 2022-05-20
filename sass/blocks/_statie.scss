@@ -1,0 +1,122 @@
+.statie{
+  padding: 150px 0;
+}
+.statie__title{
+  text-align: center;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 20px;
+  color: #333333;
+  margin-top: 0;
+  margin-bottom: 80px;
+}
+.statie__list{
+  display: flex;
+  align-items: center;
+  margin: 0;
+  padding-left: 0;
+  list-style: none;
+}
+.statie__item{
+  width: 305px;
+  margin-right: 24px;
+  border: 1px solid #E4E4E2;
+  border-radius: 5px;
+}
+.statie__item:nth-child(3){
+  margin-right: 0;
+}
+// .statie__item + .statie__item{
+//   margin-right: 0;
+// }
+.statie__item-modifile{
+  width: 640px;
+  display: flex;
+  background-color: #fff;
+}
+.itemm{
+  padding: 41px 0 37px 0;
+  margin-left: 31px;
+  width: 270px;
+}
+// .item__img{
+//   margin-bottom: 21px;
+// }
+.item-img > .item__img{
+  margin-bottom: 21px;
+
+}
+.item-imgg > .item-imgg{
+  width: 100%;
+  height: 100%;
+}
+.item{
+  padding: 0 30px 40px;
+}
+
+.item-sub-list {
+  display: flex;
+  margin: 0;
+  padding-left: 0;
+  list-style: none;
+  margin-bottom: 32px;
+}
+.item-sub-item + .item-sub-item{
+  margin-left: 7px;
+ }
+
+ .item__im{
+   margin-bottom: 21px;
+ }
+ .item__calendar{
+  //  text-align: right;
+  // margin-right: auto;
+  padding-left: 170px;
+ }
+ .item__title{
+  width: 193px;
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 25px;
+  color: #000000;
+  margin-top: 0;
+  margin-bottom: 10px;
+ }
+ .item__text{
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  color: #949494;
+  margin-top: 0;
+  margin-bottom: 38px;
+ }
+ .item__link{
+    position: relative;
+    margin-left: 25px;
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 21px;
+    color: #333333;
+
+    &:hover{
+      opacity: 0.8;
+    }
+    &:active{
+      opacity: 0.6;
+    }
+
+    &::before{
+      position: absolute;
+      width: 23px;
+      height: 21px;
+      top: 0;
+      left: -28px;
+      content: "";
+      background-image: url(../../images/pet.svg);
+      background-repeat: no-repeat;
+      background-size: contain;
+    }
+
+ }
+

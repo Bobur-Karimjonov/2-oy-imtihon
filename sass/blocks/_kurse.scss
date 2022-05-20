@@ -1,0 +1,68 @@
+.kurse{
+  padding: 117px 0;
+  // position: relative;
+  width: 100%;
+  background-image: url(../../images/kurse-bg-color.png);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  // background-position: 100%,calc(50% + 300px);
+}
+.kurse__inner {
+  position: relative;
+  padding-left: 200px;
+  
+  
+  &::before{
+    position: absolute;
+    right: 0;
+    top: -245px;
+    display: inline-block;
+    background-image: url(../../images/kurse-dog.png);
+    width: 613px;
+    background-repeat: no-repeat;
+    height: 481px;
+    // z-index: -1;
+    background-size: cover;
+    // background-position: calc(50% + 300px);
+    content: "";
+  }
+}
+
+.kurse__title{
+  margin-top: 0;
+  margin-bottom: 32px;
+  font-size: 48px;
+  line-height: 20px;
+  color: #FFFFFF;
+}
+form{
+  display: flex;
+  align-items: center;
+}
+
+.kurse__input{
+  background: #FFFFFF;
+  border-radius: 5px;
+  width: 355px;
+  padding:16px 0 10px 20px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  color: #949494;
+  margin-right: 21px;
+}
+
+.kurse__buttton{
+  padding: 12px 50px;
+  background: #333333;
+  border-radius: 3px;
+  width: 188px;
+  color: #FFFFFF;
+
+  &:hover{
+    opacity: 0.8;
+  }
+  &:active{
+    opacity: 0.6;
+  }
+}
